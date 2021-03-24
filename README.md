@@ -1,16 +1,26 @@
-### Hi there 👋
+### Hi there 👋 I'm Romain404
+***
+- 🔭 I’m currently working on the second project of my studies
+- 🌱 I’m currently learning web development
 
-<!--
-**Romain404/Romain404** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# Connect with me
+***
+<a href="https://www.linkedin.com/in/romain-ducouret-153792207/"><img src="logo_linkedin.png"></a>
+<a href=""><img src="logo_twitter.png"></a>
 
-Here are some ideas to get you started:
+<style>
+    img {
+        width: 50px;
+        transition-duration: 0.2s;
+    }
+    img:hover {
+        width: 55px;
+    }
+    a {
+        margin-right: 10px;
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    a:active, a:focus {
+        outline: none;
+    }
+</style>

@@ -5,22 +5,5 @@
 
 # Connect with me
 ***
-<a href="https://www.linkedin.com/in/romain-ducouret-153792207/"><img src="logo_linkedin.png"></a>
-<a href=""><img src="logo_twitter.png"></a>
-
-<style>
-    img {
-        width: 50px;
-        transition-duration: 0.2s;
-    }
-    img:hover {
-        width: 55px;
-    }
-    a {
-        margin-right: 10px;
-    }
-
-    a:active, a:focus {
-        outline: none;
-    }
-</style>
+<a href="https://www.linkedin.com/in/romain-ducouret-153792207/"><img src="logo_linkedin.png" style="width:50px; margin-right:20px;" alt="logo_linkedin"></a>
+<a href=""><img src="logo_twitter.png" style="width:50px;" alt="logo_twitter"></a>

@@ -1,0 +1,26 @@
+header {
+  display: flex;
+  background-color: $primary-color;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: -1px 2px 27px 0px #000;
+
+  h1 {
+    width: 90%;
+    padding-right: 10%;
+    text-align: center;
+  }
+  nav {
+    width: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 20px;
+  }
+}
+
+i.fas.fa-bars.fa-2x {
+  color: #fff;
+  height: 100%;
+}

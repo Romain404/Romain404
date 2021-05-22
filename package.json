@@ -1,0 +1,24 @@
+{
+  "name": "romain404",
+  "version": "1.0.0",
+  "description": "*** - 🔭 I’m currently working on the second project of my studies - 🌱 I’m currently learning web development",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.34.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch sass/style.scss:public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Romain404/Romain404.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Romain404/Romain404/issues"
+  },
+  "homepage": "https://github.com/Romain404/Romain404#readme"
+}

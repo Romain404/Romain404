@@ -1,0 +1,35 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  h2 {
+    text-align: center;
+  }
+  a {
+    cursor: pointer;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 1000ms;
+    margin-left: auto;
+    margin-right: auto;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  i {
+    color: $primary-color;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  p {
+    padding-inline-start: 20px;
+    padding-inline-end: 20px;
+    font-size: 1.2em;
+  }
+}

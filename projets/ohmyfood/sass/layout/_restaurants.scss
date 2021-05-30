@@ -1,0 +1,100 @@
+.restaurants {
+  display: flex;
+  flex-direction: column;
+  background-color: $background-color;
+  padding: 10px;
+  .card-list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  h2 {
+    font-family: "Roboto";
+    font-size: 1.6em;
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 15px;
+    margin-top: 40px;
+  }
+}
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  box-shadow: -1px 2px 10px 0px rgba(189, 189, 189, 0.85);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  transition-duration: 200ms;
+  a {
+    text-decoration: none;
+    color: #000;
+    border-radius: 20px;
+    h4 {
+      font-size: 1em;
+      font-family: "Roboto";
+      background-color: $tertiary-color;
+      width: max-content;
+      padding-right: 10px;
+      padding-left: 10px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      border-radius: 5px;
+      color: #22b900;
+      margin-right: 10px;
+    }
+  }
+  &:hover {
+    box-shadow: -1px 2px 10px 0px rgb(92 92 92 / 15%);
+  }
+}
+
+.new {
+  position: absolute;
+  width: 95%;
+  z-index: 2;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.restaurant-img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 200px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  padding-left: 20px;
+  justify-content: space-between;
+  h3 {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0;
+    width: 85%;
+  }
+  p {
+    font-size: 1.2em;
+    font-family: "Roboto";
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  button {
+    width: max-content;
+    border: none;
+    background-color: #f2f2f2;
+    &:active,
+    &:focus {
+      outline: none;
+    }
+  }
+}

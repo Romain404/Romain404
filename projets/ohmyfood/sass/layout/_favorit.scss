@@ -1,0 +1,28 @@
+@import "../utils/variables";
+
+.far {
+  color: #000;
+  width: 33px;
+  &:hover {
+    animation: fill 1s;
+    transition-property: transform;
+    animation-fill-mode: forwards;
+  }
+}
+
+
+@keyframes fill {
+  0% {
+    opacity: 0.2;
+  }
+
+  100% {
+    transform: scaleY(1), scaleX(1);
+    background: linear-gradient(to bottom, $secondary-color, $primary-color);
+    -webkit-background-clip: text;
+     color: transparent;
+     font-weight: bold;
+     opacity: 1;
+     
+  }
+}
